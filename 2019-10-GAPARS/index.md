@@ -37,7 +37,9 @@ We propose a simplified activity using our citizen science program SPIPoll (Phot
 #### Massive Open Online Data Analysis using Galaxy
 
 Currently, MMOS API is used in 2 main different manners to serve scientific data and analytic tools to different communities: (i) using Games as a front-end to access gamers and (ii) using MOOCS to access learners. Here we want to investigate the use of Galaxy as a massively multi-user online scientific platform. To give access to a multitude of scientific data, tools and workflows, the aim was to create connections between the MMOS system and the Galaxy Platform. 
-In this small-scale experiment, connections have been established between usegalaxy.eu instance with MMOS. After having try several possibilities, we found the Galaxy webhooks functionality (https://docs.galaxyproject.org/en/master/admin/webhooks.html) relevant to create such a connection. You want to classify hoverflies pictures ? Let's go to use usegalaxy.eu!
+In this small-scale experiment, connections have been established between usegalaxy.eu instance with MMOS. After having try several possibilities, we found the Galaxy webhooks functionality (https://docs.galaxyproject.org/en/master/admin/webhooks.html) relevant to create such a connection. 
+Thanks to the major contributions of Galaxy community and particularly Rémi Planel (GitHub rplanel) and Héléna Rasche (GitHub erasche) at GCC2019 CoFest, we now have a first galaxy.eu working implementation.
+You want to classify hoverflies pictures ? Let's go to use usegalaxy.eu!
 
 
 #### References
