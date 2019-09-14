@@ -33,23 +33,27 @@ Summary of validated acitivities:
 
 We investigated different existing solutions in order to test a first version of our platform and reduce the time needed for the development. We compared Scratch, BioBlocks, WAVE, Galaksio and NGPhylogeny.
 Scratch is a programming language already used to learn how to code in high schools. Users assemble graphical blocks of code together and form programs such as interactive stories, games or animations. This makes it a good candidate to adapt galaxy-E. As the concept of block of code is already present and the interface is already known by teachers and students. We were able to create an extension and we are now in the development phase to link the API of galaxy and scratch.
+
 Scratch3 based wireframe:
 ![Alt text](scratch.PNG)
 
 Others tested solutions were developed for research purpose and already included a link with galaxy and a simplified interface that we can modify toward our GGUI project. The solutions we tested are WAVE, Galaksio and NGPhylogeny.fr. We chose NGPhylogeny.fr and started a collaboration with the development team in the ‘Institut Pasteur’ and deployed our own NGPhylogeny.fr instance.
+
 NGPhylogeny.fr based wireframe:
 ![Alt text](galaxybricks.PNG)
 
 We propose a simplified activity using our citizen science program SPIPoll (Photographic monitoring of pollinators). In this example, we will import biodiversity data and then climatic data linked to the location of our initial data. We will perform a small data treatment (calculate mean and standard deviation), plot the data and use linear regression to test the relation between two variables.
 
+Focus on the citizen science SPIPOLL prject for a first operationalization:
+![Alt text](spipoll_protocol.PNG)
+
 #### Massive Open Online Data Analysis using Galaxy
 
 Currently, MMOS API is used in 2 main different manners to serve scientific data and analytic tools to different communities: (i) using Games as a front-end to access gamers and (ii) using MOOCS to access learners. Here we want to investigate the use of Galaxy as a massively multi-user online scientific platform. To give access to a multitude of scientific data, tools and workflows, the aim was to create connections between the MMOS system and the Galaxy Platform. 
 In this small-scale experiment, connections have been established between usegalaxy.eu instance with MMOS. After having try several possibilities, we found the Galaxy webhooks functionality (https://docs.galaxyproject.org/en/master/admin/webhooks.html) relevant to create such a connection. 
-Focus on the citizen science SPIPOLL prject for a first operationalization:
-![Alt text](spipoll_protocol.PNG)
 
-And related tasks:
+
+SPIPOLL datasets and first MMOS task:
 ![Alt text](webhook1.PNG)
 
 Thanks to the major contributions of Galaxy community and particularly Rémi Planel ([GitHub rplanel](https://github.com/rplanel/)) and Héléna Rasche ([GitHub erasche](https://github.com/erasche/)) at GCC2019 CoFest, we now have a first galaxy.eu working implementation.
