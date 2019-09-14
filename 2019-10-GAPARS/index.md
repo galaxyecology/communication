@@ -43,6 +43,9 @@ You want to classify hoverflies pictures ? Let's go to use usegalaxy.eu!
 
 [![Alt text](https://img.youtube.com/vi/U6mu3QrK9Ao/0.jpg)](https://www.youtube.com/watch?v=U6mu3QrK9Ao)
 
+Classifications results for the first week on MMOS developer portal:
+[![Alt text](MMOS_developer_portal.PNG)
+
 
 #### References
 
