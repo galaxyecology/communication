@@ -41,6 +41,8 @@ In this small-scale experiment, connections have been established between usegal
 Thanks to the major contributions of Galaxy community and particularly Rémi Planel ([GitHub rplanel](https://github.com/rplanel/)) and Héléna Rasche ([GitHub erasche](https://github.com/erasche/)) at GCC2019 CoFest, we now have a first galaxy.eu working implementation.
 You want to classify hoverflies pictures ? Let's go to use usegalaxy.eu!
 
+[![Alt text](https://img.youtube.com/vi/U6mu3QrK9Ao/0.jpg)](https://www.youtube.com/watch?v=U6mu3QrK9Ao)
+
 
 #### References
 
