@@ -1,22 +1,22 @@
 ---
-date: '2019-10-01'
+date: '2020-01-06'
 title: "Crowdsourcing citizen science data on usegalaxy.eu"
 authors: "Yvan Le Bras"
 tease: "Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science"
 image: "image.png"
 ---
 
-One year after the *[Galaxy contributor of the Month!](https://galaxyproject.org/blog/2018-10-cotm-yvan-le-bras/)* it's a pleasure for me to come back with some crispy news about the Galaxy for Ecology project!
+One year after the *[Galaxy contributor of the Month!](https://galaxyproject.org/blog/2018-10-cotm-yvan-le-bras/)* (originally I was supposed to post this blog post in october 2019... but starting 2020 appears to be better no ? ;) ) it's a pleasure for me to come back with some crispy news about the Galaxy for Ecology project!
 
 ## Official launch of the European Galaxy-E instance
 
 ### GCC2019, a particular GCC for Ecology!
 
-GCC2019 in Freiburg was my 5th GCC and a very special one. If each GCC is a wonderful moment, this time was amazzziinnnng for ecology guys. Thanks to the new ["outside the genome community track"](https://gcc2019.sched.com/event/Lufc/session-13outside-the-genome-community-track), we have had dedicated sessions to exchange with colleagues from climate science and chemoinformatics notably and beautiful exposure of Ecology related works with an amazing [invited talk on data viz by citizen scientists to better speak about biodiversity conservation](https://gcc2019.sched.com/event/PSq5/invited-talk-data-visualisation-by-citizen-science-participants-the-case-of-birds-and-bats-monitoring-schemes-and-galaxy-e) and lightning talks on the [Galaxy-Bricks concept](https://gcc2019.sched.com/event/PSq8/galaxy-bricks-a-tool-for-data-literacy-and-scientific-approach-education-in-the-context-of-citizen-science) and presenting how [Galaxy-E can facilitate biodiversity indicators production from citizen science projects](https://gcc2019.sched.com/event/PSqB/citizen-science-project-in-ecology-with-the-galaxy-e-platform) . For that I really want to thank colleagues from french museum of natural history for the quality of the presentations as GCC2019 scientific committee for selecting these abstracts. Finally, this GCC was also the chosen moment to officially announce the launch of ecology.usegalaxy.eu, the European Galaxy instance dedicated to ecological research!
+GCC2019 in Freiburg was my 5th GCC and a very special one. If each GCC is a wonderful moment, this time was amazzziinnnng for ecology guys. Thanks to the new ["outside the genome community track"](https://gcc2019.sched.com/event/Lufc/session-13outside-the-genome-community-track), we have had dedicated sessions to exchange with colleagues from climate science and chemoinformatics notably and beautiful exposure of Ecology related works with an amazing [invited talk on data viz by citizen scientists to better speak about biodiversity conservation](https://gcc2019.sched.com/event/PSq5/invited-talk-data-visualisation-by-citizen-science-participants-the-case-of-birds-and-bats-monitoring-schemes-and-galaxy-e) and lightning talks on the [Galaxy-Bricks concept](https://gcc2019.sched.com/event/PSq8/galaxy-bricks-a-tool-for-data-literacy-and-scientific-approach-education-in-the-context-of-citizen-science) and presenting how [Galaxy-E can facilitate biodiversity indicators production from citizen science projects](https://gcc2019.sched.com/event/PSqB/citizen-science-project-in-ecology-with-the-galaxy-e-platform) . For that I really want to thank colleagues from french museum of natural history for the quality of the presentations as GCC2019 scientific committee for selecting these abstracts. Finally, this GCC was also the chosen moment to officially announce the launch of https://ecology.usegalaxy.eu/, the European Galaxy instance dedicated to ecological research!
 
 ### Result of a community effort, but also an Alan one!
 
-For sure existence of this Galaxy-E instance is due to the work of so many people I can't cite all of them. This is a community effort, special "bricks" of "foundations" of this effort are the Incredible Freiburg Galaxy team, ouhaouhou, you rocks guys! And I have to address a big thank to a young talented engineer I have had the chance our tracks cross 3 years ago, Alan, who was the guy who build all Galaxy-E tools working hard to be sure to have a sufficient quality to be accepted by Björn ;)
+For sure existence of this Galaxy-E instance is due to the work of so many people I can't cite all of them. This is a community effort, special "bricks" of "foundations" of this effort are the Incredible Freiburg Galaxy team, ouhaouhou, you rocks guys! And I have to address a big thank to a young talented engineer I have had the chance our tracks cross 3 years ago, Alan, who was the guy who build all 2019 Galaxy-E tools working hard to be sure to have a sufficient quality to be accepted by Björn ;)
 
 ### So what happen since GCC? Cripsy things ;)
 
@@ -42,7 +42,7 @@ Others tested solutions were developed for research purpose and already included
 NGPhylogeny.fr based wireframe:
 ![NGPhylogeny.fr based wireframe](galaxybricks.PNG)
 
-We propose a simplified activity using our citizen science program SPIPoll (Photographic monitoring of pollinators). In this example, we will import biodiversity data and then climatic data linked to the location of our initial data. We will perform a small data treatment (calculate mean and standard deviation), plot the data and use linear regression to test the relation between two variables.
+We propose a simplified activity using our citizen science program [SPIPoll](https://www.spipoll.org/) (Photographic monitoring of pollinators). In this example, we will import biodiversity data and then climatic data linked to the location of our initial data. We will perform a small data treatment (calculate mean and standard deviation), plot the data and use linear regression to test the relation between two variables.
 
 Focus on the citizen science SPIPOLL project for a first operationalization:
 ![Alt text](spipoll_protocol.PNG)
