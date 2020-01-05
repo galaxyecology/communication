@@ -1,18 +1,65 @@
-    Few days after the *[Crowdsourcing citizen science data on usegalaxy.eu Galaxy hub blog post!](https://galaxyproject.org/blog/2020+++++++++/)* it's a pleasure to go deeper on the gamification orientation of this work done in a collaborative effort between french national Museum of natural History, usegalaxy.eu german team and Swiss MMOS company thanks to the H2020 GAPARS project!
-    we introduced the general webhook concept a few years back into galaxy
-    this has enabled custom modifications to Galaxy UI without changing Galaxy source code and make maintenance of those changes easier. It is a plugin concept for Galaxy UI.
-    this is what is powering the much loved XKCD or PhD comics for example - but this was just the first step ...
-    Today we are proud to introduce you an extension that helps our ecology community to annotate existing datasets classifying hoverflies into male and female so this information can be used in further data treatment for example to train future machine learning models.
-    How it works and how to create new plugins of this kind? 
-        Here we can take the hoverflies example:
-        pictures collected by SPIPOLL citizen scientists are uploaded in the SPIPOLL database. Project managers have prepared these pictures describing tasks that can be done on one subpart of the pictures, here hoverflies pictures (5000) where we can potentially easily identify male and female looking at relative eyes position. 
-        description of pictures batchs, tasks and gold standards (subpart of the 5000 pictures where the result (male or female) is known) as manner to get the data was send to MMOS
-        On the MMOS side, you have to populate the developer portal with pictures and provide all mandatory metadata
-        You then have to create the "web page" (have a look here for the hoverflies example https://github.com/galaxyecology/webhook_SPIPOLL_Flash/blob/master/templates/guess.html) who will populate the Galaxy webhook, display the picture (the task) and allow to submit an answer. 
-            Here is a simple example, with a single picture displayed by task, but you can imagine many other possibilities, and not only on pitures!
-            You have thousands (or more) pictures you want to treat through a simple task? You can use this hoverflies example to create your own Galaxy webhook! Please don't hesitate to contact us!
-    it is good to help as in citizen science, three important issues regarding notably crowdsourcing related tasks are the fact that 1/very few people contribute to major part of results, 2/majority of contributors treat only few tasks and never come back, 3/opening contributors to others citizen science projects is difficult. Here the idea is to give a quite simple framework to create & manage tasks and data (MMOS platform http://mmos.ch/), have a GUI (web page on a web server, Galaxy webhook https://usegalaxy.eu/gapars-experiment/) and places where can shape the user experience (here the Galaxy Europe platform https://usegalaxy.eu/)
-    in the hoverflies example, the work done by Galaxy webhook analysts allow to extend metadata on already captured data and so can open new ways as training machine learning models or taking into account a new factor (here sex) in statistical modeling 
-    what next ? 
-        Disseminating the hoverflies "app" on others channels than https://usegalaxy.eu/ like ecology oriented website or forum.
-        creating others examples to better appreciate costs, limitations and potential of this approach
+---
+site: freiburg
+tags: [galaxy,mmos,devops]
+title: Massively Multiplayer Online Science in Galaxy to help Ecologists - a citizen science project.
+---
+
+A few years back the "webhook" concept was contributed to the Galaxy codebase.
+Webhooks have enabled custom modifications to the Galaxy User Interface (UI) without changing the Galaxy source code directly.
+The advantage is that the maintenance of custom changes is a lot easier. You can think of it as a plugin concept for the Galaxy UI.
+Webhooks are powering the so much-loved XKCD or PhD comics that you see when you submit jobs or workflows for example - but this was just the first step...
+
+Today we are proud to announce an extension that enables __you__ to help our ecology community to annotate existing datasets by classifying hoverflies into males and females.
+This information will help ecologist in further data analysis, for example, to train future machine learning models. [Try it!](https://usegalaxy.eu/gapars-experiment)
+
+<div class="multiple-img">
+    <img src="/assets/media/mmos_flies.png" alt="classification of marmelade hoverflies" />
+    <i>SPIPOLL datasets and first MMOS task on usegalaxy.eu</i>
+</div>
+
+
+<br>
+#### Crowdsourcing in science is hard
+
+Crowdsourcing in science is hard. Nevertheless, there are tremendous opportunities where we all can advance science and help our colleagues. Here we are trying to overcome the challenges by embedding the crowdsourcing tasks into Galaxy.
+
+The idea is to provide a simple framework to create and manage tasks and data via the [MMOS platform](http://mmos.ch),
+together with a simple [UI](https://usegalaxy.eu/gapars-experiment) and integrate this into [Galaxy Europe](https://usegalaxy.eu).
+
+For us, it made a lot of sense to offer the hoverfly images after you execute a job or a workflow. Usually, you need to wait a few seconds until your job is processed and you can study the results. During this time you can now classify marmalade hoverflies as a means to procrastinate - but in a very meaningful way and the
+good feeling to have helped our colleagues from ecology :)
+
+The work done by __you__ with this new Galaxy feature allows ecologist to extend metadata on already captured data
+and will open new ways to analyse them. For example by
+training machine learning models or taking into account new factors (here the sex of the flies) in statistical modelling.
+
+<br>
+#### How it works and how to create new plugins of this kind
+
+The [SPIPOLL](https://www.spipoll.org) citizen science project collects images from different species, in our case from [Episyrphus balteatus](https://en.wikipedia.org/wiki/Episyrphus_balteatus), also called marmalade hoverfly. In a second step, a project manager prepares certain tasks and seeks for community contribution to help to classify the images.
+As a first project, we have chosen to help with the task to classify ~5000 hoverfly images and identify the sex by looking at their relative eyes position.
+
+To make it really simple for __you__ to contribute to such a crowdsourcing project we teamed up with the project [Massively Multiplayer Online Science](http://gapars.mmos.ch), which is a citizen science platform connecting scientific research and video games! :)
+
+On the MMOS side, we had to populate the developer portal with pictures and provide all mandatory metadata. We then had to create a simple webpage that could be embedded into Galaxy. This site displays the task (our hoverfly image) and allows submitting an answer to the MMOS server.
+
+The hoverfly example can be found on [GitHub](https://github.com/galaxyecology/webhook_SPIPOLL_Flash/blob/master/templates/guess.html).
+This is a very simple example, with a single picture displayed as a task, but you can imagine many other possibilities and not only pictures!
+
+If you have a task where you need the help of thousands of researchers, talk to us and we will figure out together how we can treat your data in a similar way as our marmalade flies!
+
+
+<br>
+#### Have a lot of fun during your research!
+
+Have much fun classifying flies and let us know if you have similar use-cases!
+Thanks a lot to all contributors, particularly [Rémi Planel](https://github.com/rplanel/), [Helena Rasche](https://github.com/erasche/),
+the MMOS project and [Yvan Le Bras](https://github.com/yvanlebras/)!
+
+This work is a collaborative effort between [French National Museum of Natural History](https://www.mnhn.fr/en), UseGalaxy.eu ([de.NBI](https::/denbi.de/), [ELIXIR](https://elixir-europe.org)) and the [MMOS](http://mmos.ch) company. Thanks also to the H2020 GAPARS project!
+
+If you want to read more about crowdsourcing citizen science data on UseGalaxy.eu have a look at the [new blog post by Yvan](https://galaxyproject.org/blog/2020+++++++++/)! 
+
+<div class="multiple-img">
+    <iframe width="750" height="315" src="https://www.youtube.com/embed/U6mu3QrK9Ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
