@@ -64,7 +64,8 @@ Have much fun classifying flies and let us know if you have similar use-cases!
 Thanks a lot to all contributors, particularly [Rémi Planel](https://github.com/rplanel/), [Helena Rasche](https://github.com/erasche/),
 the MMOS project and [Yvan Le Bras](https://github.com/yvanlebras/)!
 
-This work is a collaborative effort between french national Museum of natural History, UseGalaxy.eu (de.NBI) and the Swiss MMOS company. Thanks also to the H2020 GAPARS project!
+This work is a collaborative effort between [French National Museum of Natural History](https://www.mnhn.fr/en), UseGalaxy.eu ([de.NBI](denbi.de/), [ELIXIR](elixir-europe.org))
+and the [MMOS](http://mmos.ch) company. Thanks also to the H2020 GAPARS project!
 
 If you want to read more about crowdsourcing citizen science data on UseGalaxy.eu have a look at the [new blog post by Yvan](https://galaxyproject.org/blog/2020+++++++++/)! 
 
